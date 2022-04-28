@@ -30,5 +30,5 @@ do
 done
 
 bash jenaclone-benchmark.sh $1
-#bash jena-benchmark.sh $1
-#bash leapfrog-benchmark.sh $1
+bash jena-benchmark.sh $1
+bash leapfrog-benchmark.sh $1
