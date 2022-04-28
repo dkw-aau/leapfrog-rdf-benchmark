@@ -3,7 +3,7 @@ benchmark/jena/db/*
 benchmark/jena/db/jenaclone/
 benchmark/wikidata-filtered.nt
 benchmark/queries/*/output/
-benchmark/jena/jars/*.jar
+benchmark/jena/jars/fuseki-jenaclone.jar
 benchmark/jena/jars/jenaclone_version
 **/resized.nt
 benchmark/jena/jars/fuseki-jenaclone.jar
