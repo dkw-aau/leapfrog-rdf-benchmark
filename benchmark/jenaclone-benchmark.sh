@@ -4,10 +4,10 @@ start=$(date)
 echo Loading started $start
 
 cd jena
-java -Xmx100g -jar jars/fuseki-jenaclone.jar --loc=db/jena --timeout=1000000 /jenaclone &
+java -Xmx300g -jar jars/fuseki-jenaclone.jar --loc=db/jena --timeout=1000000 /jenaclone &
 cd ..
 
-sleep 60m
+sleep 180m
 echo "[Done]"
 
 echo Warming up
