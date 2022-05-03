@@ -66,9 +66,9 @@ The code for our leapfrog implementation for Apache Jena is available [here](htt
 - `docker build -t jenaclone_benchmark .`
 -   Run the container
     ```
-    docker run \\
-        --rm  \\
-        -v ${PWD}/benchmark/:/benchmark \\
+    docker run \
+        --rm  \
+        -v ${PWD}/benchmark/:/benchmark \
         jenaclone_benchmark
     ```
     - `${PWD}` matches `<ABSOLUTE PATH>` to current  `<REPOSITORY NAME>`
