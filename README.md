@@ -71,9 +71,8 @@ The code for our leapfrog implementation for Apache Jena is available [here](htt
         -v ${PWD}/benchmark/:/benchmark \
         jenaclone_benchmark
     ```
-    - `${PWD}` matches `<ABSOLUTE PATH>` to current  `<REPOSITORY NAME>`
 
-Now the results are available in the folders `queries/bgps/output` and `queries/optionals/output`
+Now the results are available in the folders `queries/*/output`
 
 # Results
 You can find our results in the results folder. For each query pattern you will find a folder containing two files, one for the Original Apache Jena and for for our modification of Apache Jena. Each line of a file contains three values separated by a semicolon: `queryNumber;numberOfResutls;executionTimeInNanoseconds`
