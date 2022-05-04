@@ -1,4 +1,3 @@
-apt install openjdk-11-jdk# Code
 The code for our leapfrog implementation for Apache Jena is available [here](https://github.com/GQgH5wFgzT/jena)
 
 # Repeating the experiments
