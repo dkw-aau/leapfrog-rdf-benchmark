@@ -1,4 +1,3 @@
-apt install openjdk-11-jdk# Code
 The code for our leapfrog implementation for Apache Jena is available [here](https://github.com/GQgH5wFgzT/jena)
 
 # Repeating the experiments
@@ -54,7 +53,7 @@ The code for our leapfrog implementation for Apache Jena is available [here](htt
   generate_index "$K2 $K1 $K3" "$DATA_TRIPLES" PSO
   generate_index "$K3 $K2 $K1" "$DATA_TRIPLES" OPS
   ```
-- Create the database for the leapfrog impementation `apache-jena-3.9.0/bin/tdbloader2 --loc=db/leapfrog ../wikidata-filtered.nt`
+- Create the database for the leapfrog impementation `apache-jena-3.17.0/bin/tdbloader2 --loc=db/leapfrog ../wikidata-filtered.nt`
 
 ### Adding Jenaclone
 - Build the Jenaclone project using the `mvn install` Maven lifecycle, as specified in the <a href="https://gitlab.com/learnedrdf/jenaclone-3.17/-/wikis/instructions">documentation</a> of the Jenaclone repository
