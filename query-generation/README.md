@@ -1,6 +1,6 @@
 This Python script generates a new query for every query passed.
 Two types of queries can be generated: queries that return empty result sets or queries where the URI predicate in the first triple pattern in the graph pattern is substituted with a variable, and another variable in either the subject or object position in any triple pattern is chosen and substituted with a solution for that variable in all occurrences of that variable in the graph pattern.
-For queries that return empty result sets, a list of the 100 most frequently used predicates in Wikidata are collectes, as well as the 100 least used predicates. every predicate in an input query, except for the last predicate, are substituted with a popular predicate, and the last predicate is substitutes with an unpopular one.
+For queries that return empty result sets, a list of the 100 most frequently used predicates in Wikidata are collected, as well as the 100 least used predicates. every predicate in an input query, except for the last predicate, are substituted with a popular predicate, and the last predicate is substituted with an unpopular one.
 
 # How To
 
