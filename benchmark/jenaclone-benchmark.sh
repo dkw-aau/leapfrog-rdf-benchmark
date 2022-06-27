@@ -7,7 +7,7 @@ cd jena
 java -Xmx300g -jar jars/fuseki-jenaclone.jar --loc=db/jena --timeout=1000000 /jenaclone &
 cd ..
 
-sleep 180m
+sleep 60m
 echo "[Done]"
 
 echo Warming up

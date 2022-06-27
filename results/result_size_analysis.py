@@ -9,16 +9,16 @@ def print_intermediate_sizes(time, dataset):
     with open('query.txt', 'w') as file:
         file.write(time.get_query().replace("(COUNT(*) AS ?count)", "*"))
 
-    os.system('java -jar JenaQueryTool.jar --loc ' + dataset + ' --query query.txt query intermediate >> ' + OUT_FILE)
+    os.system('java -jar JenaQueryTool.jar --loc ' + dataset + ' --query query.txt query intermediate >> result_sizes/' + time.get_jena_file().split('/')[2] + '-' + OUT_FILE)
     os.system('rm query.txt')
 
-    with open('result_sizes.txt', 'a') as file:
+    with open('result_sizes/' + time.get_jena_file().split('/')[2] + '-' + OUT_FILE, 'a') as file:
         file.write('Jenaclone\t\tJena\t\tLeapfrog\n')
         file.write(str(time.get_jenaclone_time()) + '\t\t' + str(time.get_jena_time()) + '\t\t' + str(time.get_leapfrog_time()) + '\n')
         file.write(time.get_jena_file()[0:time.get_jena_file().rfind('/')] + "\n\n")
 
-def analyze_sizes():
-    with open(OUT_FILE, "r") as f:
+def analyze_sizes(file):
+    with open(file, "r") as f:
         output = "Analysis\n\n"
         is_query = False
         is_plan = False
@@ -53,10 +53,10 @@ def analyze_sizes():
                 is_plan = True
                 output += line + "\n"
 
-    os.system('rm ' + OUT_FILE)
+    os.system('rm ' + file)
 
-    with open(OUT_FILE, "r") as f:
-        f.write(str)
+    with open(file, 'w') as f:
+        f.write(output)
 
 if __name__ == "__main__":
     folders = list()
@@ -70,6 +70,7 @@ if __name__ == "__main__":
     folders_exist_check(folders)
 
     dataset = sys.argv[1]
+    os.system('mkdir result_sizes')
 
     for folder in folders:
         files = query_files(QUERY_BASE_DIR + folder)
@@ -88,4 +89,4 @@ if __name__ == "__main__":
                 time = Time(jena_file, jenaclone_file, leapfrog_file, queries[i], jena_times[i][1], jenaclone_times[i][1], leapfrog_times[i][1], jena_times[i][0], jenaclone_times[i][0], leapfrog_times[i][0], [])
                 print_intermediate_sizes(time, dataset)
 
-    analyze_sizes()
+            analyze_sizes('result_sizes/' + jena_file.split('/')[2] + '-' + OUT_FILE)
