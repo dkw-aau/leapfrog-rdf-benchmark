@@ -1,0 +1,10 @@
+SELECT (COUNT(*) AS ?count) WHERE { ?x1 <http://www.wikidata.org/prop/direct/P749> ?x2 . ?x2 <http://www.wikidata.org/prop/direct/P488> ?x3 . ?x1 <http://www.wikidata.org/prop/direct/P2388> ?x3 } LIMIT 10000
+SELECT (COUNT(*) AS ?count) WHERE { ?x1 <http://www.wikidata.org/prop/direct/P485> ?x2 . ?x2 <http://www.wikidata.org/prop/direct/P488> ?x3 . ?x1 <http://www.wikidata.org/prop/direct/P26> ?x3 } LIMIT 10000
+SELECT (COUNT(*) AS ?count) WHERE { ?x1 <http://www.wikidata.org/prop/direct/P185> ?x2 . ?x2 <http://www.wikidata.org/prop/direct/P3373> ?x3 . ?x1 <http://www.wikidata.org/prop/direct/P40> ?x3 } LIMIT 10000
+SELECT (COUNT(*) AS ?count) WHERE { ?x1 <http://www.wikidata.org/prop/direct/P466> ?x2 . ?x2 <http://www.wikidata.org/prop/direct/P1532> ?x3 . ?x1 <http://www.wikidata.org/prop/direct/P127> ?x3 } LIMIT 10000
+SELECT (COUNT(*) AS ?count) WHERE { ?x1 <http://www.wikidata.org/prop/direct/P1080> ?x2 . ?x2 <http://www.wikidata.org/prop/direct/P178> ?x3 . ?x1 <http://www.wikidata.org/prop/direct/P170> ?x3 } LIMIT 10000
+SELECT (COUNT(*) AS ?count) WHERE { ?x1 <http://www.wikidata.org/prop/direct/P1791> ?x2 . ?x2 <http://www.wikidata.org/prop/direct/P4224> ?x3 . ?x1 <http://www.wikidata.org/prop/direct/P138> ?x3 } LIMIT 10000
+SELECT (COUNT(*) AS ?count) WHERE { ?x1 <http://www.wikidata.org/prop/direct/P1659> ?x2 . ?x2 <http://www.wikidata.org/prop/direct/P126> ?x3 . ?x1 <http://www.wikidata.org/prop/direct/P1629> ?x3 } LIMIT 10000
+SELECT (COUNT(*) AS ?count) WHERE { ?x1 <http://www.wikidata.org/prop/direct/P1196> ?x2 . ?x2 <http://www.wikidata.org/prop/direct/P2283> ?x3 . ?x1 <http://www.wikidata.org/prop/direct/P509> ?x3 } LIMIT 10000
+SELECT (COUNT(*) AS ?count) WHERE { ?x1 <http://www.wikidata.org/prop/direct/P2302> ?x2 . ?x2 <http://www.wikidata.org/prop/direct/P1889> ?x3 . ?x1 <http://www.wikidata.org/prop/direct/P1629> ?x3 } LIMIT 10000
+SELECT (COUNT(*) AS ?count) WHERE { ?x1 <http://www.wikidata.org/prop/direct/P1056> ?x2 . ?x2 <http://www.wikidata.org/prop/direct/P1972> ?x3 . ?x1 <http://www.wikidata.org/prop/direct/P2037> ?x3 } LIMIT 10000

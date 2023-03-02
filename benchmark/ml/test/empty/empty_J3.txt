@@ -1,0 +1,10 @@
+SELECT (COUNT(*) AS ?count) WHERE { ?y <http://www.wikidata.org/prop/direct/P4132> ?x . ?z <http://www.wikidata.org/prop/direct/P171> ?x . ?x <http://www.wikidata.org/prop/direct/P4342> ?v } LIMIT 10000
+SELECT (COUNT(*) AS ?count) WHERE { ?y <http://www.wikidata.org/prop/direct/P1313> ?x . ?z <http://www.wikidata.org/prop/direct/P31> ?x . ?x <http://www.wikidata.org/prop/direct/P541> ?v } LIMIT 10000
+SELECT (COUNT(*) AS ?count) WHERE { ?y <http://www.wikidata.org/prop/direct/P3450> ?x . ?z <http://www.wikidata.org/prop/direct/P5055> ?x . ?x <http://www.wikidata.org/prop/direct/P1661> ?v } LIMIT 10000
+SELECT (COUNT(*) AS ?count) WHERE { ?y <http://www.wikidata.org/prop/direct/P131> ?x . ?z <http://www.wikidata.org/prop/direct/P1056> ?x . ?x <http://www.wikidata.org/prop/direct/P1552> ?v } LIMIT 10000
+SELECT (COUNT(*) AS ?count) WHERE { ?y <http://www.wikidata.org/prop/direct-normalized/P227> ?x . ?z <http://www.wikidata.org/prop/direct/P101> ?x . ?x <http://www.wikidata.org/prop/direct/P902> ?v } LIMIT 10000
+SELECT (COUNT(*) AS ?count) WHERE { ?y <http://www.wikidata.org/prop/direct/P163> ?x . ?z <http://www.wikidata.org/prop/direct/P105> ?x . ?x <http://www.wikidata.org/prop/direct/P227> ?v } LIMIT 10000
+SELECT (COUNT(*) AS ?count) WHERE { ?y <http://www.wikidata.org/prop/direct/P645> ?x . ?z <http://www.wikidata.org/prop/direct/P553> ?x . ?x <http://www.wikidata.org/prop/direct/P1661> ?v } LIMIT 10000
+SELECT (COUNT(*) AS ?count) WHERE { ?y <http://www.wikidata.org/prop/direct/P1313> ?x . ?z <http://www.wikidata.org/prop/direct/P2888> ?x . ?x <http://www.wikidata.org/prop/direct/P935> ?v } LIMIT 10000
+SELECT (COUNT(*) AS ?count) WHERE { ?y <http://www.wikidata.org/prop/direct/P870> ?x . ?z <http://www.wikidata.org/prop/direct/P856> ?x . ?x <http://www.wikidata.org/prop/direct/P1417> ?v } LIMIT 10000
+SELECT (COUNT(*) AS ?count) WHERE { ?y <http://www.wikidata.org/prop/direct/P50> ?x . ?z <http://www.wikidata.org/prop/direct/P710> ?x . ?x <http://www.wikidata.org/prop/direct-normalized/P1015> ?v } LIMIT 10000

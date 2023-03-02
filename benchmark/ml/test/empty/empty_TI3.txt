@@ -1,0 +1,10 @@
+SELECT (COUNT(*) AS ?count) WHERE { ?y <http://www.wikidata.org/prop/direct/P1325> ?x . ?z <http://www.wikidata.org/prop/direct/P2671> ?x . ?u <http://www.wikidata.org/prop/direct/P1896> ?x } LIMIT 10000
+SELECT (COUNT(*) AS ?count) WHERE { ?y <http://www.wikidata.org/prop/direct/P833> ?x . ?z <http://www.wikidata.org/prop/direct/P5055> ?x . ?u <http://www.wikidata.org/prop/direct/P138> ?x } LIMIT 10000
+SELECT (COUNT(*) AS ?count) WHERE { ?y <http://www.wikidata.org/prop/direct/P1885> ?x . ?z <http://www.wikidata.org/prop/direct/P644> ?x . ?u <http://www.wikidata.org/prop/direct/P460> ?x } LIMIT 10000
+SELECT (COUNT(*) AS ?count) WHERE { ?y <http://www.wikidata.org/prop/direct/P570> ?x . ?z <http://www.wikidata.org/prop/direct/P5395> ?x . ?u <http://www.wikidata.org/prop/direct/P3017> ?x } LIMIT 10000
+SELECT (COUNT(*) AS ?count) WHERE { ?y <http://www.wikidata.org/prop/direct/P702> ?x . ?z <http://www.wikidata.org/prop/direct/P4101> ?x . ?u <http://www.wikidata.org/prop/direct/P137> ?x } LIMIT 10000
+SELECT (COUNT(*) AS ?count) WHERE { ?y <http://www.wikidata.org/prop/direct/P2506> ?x . ?z <http://www.wikidata.org/prop/direct/P830> ?x . ?u <http://www.wikidata.org/prop/direct/P627> ?x } LIMIT 10000
+SELECT (COUNT(*) AS ?count) WHERE { ?y <http://www.wikidata.org/prop/direct/P421> ?x . ?z <http://www.wikidata.org/prop/direct/P2824> ?x . ?u <http://www.wikidata.org/prop/direct/P3957> ?x } LIMIT 10000
+SELECT (COUNT(*) AS ?count) WHERE { ?y <http://www.wikidata.org/prop/direct/P361> ?x . ?z <http://www.wikidata.org/prop/direct/P2767> ?x . ?u <http://www.wikidata.org/prop/direct/P3544> ?x } LIMIT 10000
+SELECT (COUNT(*) AS ?count) WHERE { ?y <http://schema.org/dateModified> ?x . ?z <http://www.wikidata.org/prop/direct/P1352> ?x . ?u <http://www.wikidata.org/prop/direct/P1114> ?x } LIMIT 10000
+SELECT (COUNT(*) AS ?count) WHERE { ?y <http://www.wikidata.org/prop/direct/P5731> ?x . ?z <http://www.wikidata.org/prop/direct/P225> ?x . ?u <http://www.wikidata.org/prop/direct/P4889> ?x } LIMIT 10000
