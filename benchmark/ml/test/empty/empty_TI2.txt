@@ -1,10 +1,5 @@
-SELECT (COUNT(*) AS ?count) WHERE { ?y <http://www.wikidata.org/prop/direct/P1412> ?x . ?z <http://www.wikidata.org/prop/direct/P879> ?x } LIMIT 10000
 SELECT (COUNT(*) AS ?count) WHERE { ?y <http://www.wikidata.org/prop/direct/P527> ?x . ?z <http://www.wikidata.org/prop/direct/P3124> ?x } LIMIT 10000
 SELECT (COUNT(*) AS ?count) WHERE { ?y <http://www.wikidata.org/prop/direct-normalized/P356> ?x . ?z <http://www.wikidata.org/prop/direct/P138> ?x } LIMIT 10000
-SELECT (COUNT(*) AS ?count) WHERE { ?y <http://www.wikidata.org/prop/direct/P17> ?x . ?z <http://www.wikidata.org/prop/direct/P1308> ?x } LIMIT 10000
 SELECT (COUNT(*) AS ?count) WHERE { ?y <http://www.wikidata.org/prop/direct/P644> ?x . ?z <http://www.wikidata.org/prop/direct/P4525> ?x } LIMIT 10000
 SELECT (COUNT(*) AS ?count) WHERE { ?y <http://www.wikidata.org/prop/direct/P155> ?x . ?z <http://www.wikidata.org/prop/direct/P3435> ?x } LIMIT 10000
-SELECT (COUNT(*) AS ?count) WHERE { ?y <http://www.wikidata.org/prop/direct/P39> ?x . ?z <http://www.wikidata.org/prop/direct/P1976> ?x } LIMIT 10000
-SELECT (COUNT(*) AS ?count) WHERE { ?y <http://www.wikidata.org/prop/direct/P528> ?x . ?z <http://www.wikidata.org/prop/direct/P2818> ?x } LIMIT 10000
-SELECT (COUNT(*) AS ?count) WHERE { ?y <http://www.wikidata.org/prop/direct/P682> ?x . ?z <http://www.wikidata.org/prop/direct/P242> ?x } LIMIT 10000
 SELECT (COUNT(*) AS ?count) WHERE { ?y <http://www.wikidata.org/prop/direct/P108> ?x . ?z <http://www.wikidata.org/prop/direct/P1868> ?x } LIMIT 10000

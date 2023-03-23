@@ -1,2 +1,1 @@
 SELECT COUNT(*) WHERE { ?s <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11173> . ?s <http://www.wikidata.org/prop/direct/P703> ?o1 . ?o1 <http://www.wikidata.org/prop/direct/P1343> ?o2 . ?o2 <http://www.wikidata.org/prop/direct/P31> ?o3 . ?o3 <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q5292> . }
-

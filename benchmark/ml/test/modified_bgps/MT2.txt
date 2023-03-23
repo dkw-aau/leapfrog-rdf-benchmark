@@ -1,9 +1,4 @@
-SELECT (COUNT(*) AS ?count) WHERE { <http://www.wikidata.org/entity/Q4025820> ?p ?y . <http://www.wikidata.org/entity/Q4025820> <http://www.wikidata.org/prop/direct/P282> ?z } LIMIT 10000
-SELECT (COUNT(*) AS ?count) WHERE { <http://www.wikidata.org/entity/Q1779173> ?p ?y . <http://www.wikidata.org/entity/Q1779173> <http://www.wikidata.org/prop/direct/P1667> ?z } LIMIT 10000
 SELECT (COUNT(*) AS ?count) WHERE { <http://www.wikidata.org/entity/Q209643> ?p ?y . <http://www.wikidata.org/entity/Q209643> <http://www.wikidata.org/prop/direct-normalized/P2581> ?z } LIMIT 10000
-SELECT (COUNT(*) AS ?count) WHERE { <http://www.wikidata.org/entity/Q2712337> ?p ?y . <http://www.wikidata.org/entity/Q2712337> <http://www.wikidata.org/prop/direct/P960> ?z } LIMIT 10000
 SELECT (COUNT(*) AS ?count) WHERE { <http://www.wikidata.org/entity/Q789889> ?p ?y . <http://www.wikidata.org/entity/Q789889> <http://www.wikidata.org/prop/direct/P158> ?z } LIMIT 10000
 SELECT (COUNT(*) AS ?count) WHERE { <http://www.wikidata.org/entity/Q3378182> ?p ?y . <http://www.wikidata.org/entity/Q3378182> <http://www.wikidata.org/prop/direct/P380> ?z } LIMIT 10000
-SELECT (COUNT(*) AS ?count) WHERE { <http://www.wikidata.org/entity/Q776953> ?p ?y . <http://www.wikidata.org/entity/Q776953> <http://www.wikidata.org/prop/direct/P1986> ?z } LIMIT 10000
-SELECT (COUNT(*) AS ?count) WHERE { <http://www.wikidata.org/entity/Q5627447> ?p ?y . <http://www.wikidata.org/entity/Q5627447> <http://www.wikidata.org/prop/direct/P1936> ?z } LIMIT 10000
 SELECT (COUNT(*) AS ?count) WHERE { <http://www.wikidata.org/entity/Q201608> ?p ?y . <http://www.wikidata.org/entity/Q201608> <http://www.wikidata.org/prop/direct/P2728> ?z } LIMIT 10000

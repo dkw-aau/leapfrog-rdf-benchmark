@@ -1,10 +1,5 @@
 SELECT (COUNT(*) AS ?count) WHERE { ?x1 <http://www.wikidata.org/prop/direct-normalized/P244> ?x2 . ?x2 <http://www.wikidata.org/prop/direct/P170> ?x3 . ?x3 <http://www.wikidata.org/prop/direct/P3373> ?x1 } LIMIT 10000
-SELECT (COUNT(*) AS ?count) WHERE { ?x1 <http://www.wikidata.org/prop/direct/P2743> ?x2 . ?x2 <http://www.wikidata.org/prop/direct/P688> ?x3 . ?x3 <http://www.wikidata.org/prop/direct/P301> ?x1 } LIMIT 10000
-SELECT (COUNT(*) AS ?count) WHERE { ?x1 <http://www.wikidata.org/prop/direct/P214> ?x2 . ?x2 <http://www.wikidata.org/prop/direct/P155> ?x3 . ?x3 <http://www.wikidata.org/prop/direct/P1269> ?x1 } LIMIT 10000
 SELECT (COUNT(*) AS ?count) WHERE { ?x1 <http://www.wikidata.org/prop/direct/P910> ?x2 . ?x2 <http://www.wikidata.org/prop/direct/P106> ?x3 . ?x3 <http://www.wikidata.org/prop/direct/P156> ?x1 } LIMIT 10000
-SELECT (COUNT(*) AS ?count) WHERE { ?x1 <http://www.wikidata.org/prop/direct/P6216> ?x2 . ?x2 <http://www.wikidata.org/prop/direct/P1889> ?x3 . ?x3 <http://www.wikidata.org/prop/direct/P1687> ?x1 } LIMIT 10000
-SELECT (COUNT(*) AS ?count) WHERE { ?x1 <http://www.wikidata.org/prop/direct/P3858> ?x2 . ?x2 <http://www.wikidata.org/prop/direct/P698> ?x3 . ?x3 <http://www.wikidata.org/prop/direct/P1423> ?x1 } LIMIT 10000
 SELECT (COUNT(*) AS ?count) WHERE { ?x1 <http://www.wikidata.org/prop/direct/P1566> ?x2 . ?x2 <http://www.wikidata.org/prop/direct/P972> ?x3 . ?x3 <http://www.wikidata.org/prop/direct/P301> ?x1 } LIMIT 10000
 SELECT (COUNT(*) AS ?count) WHERE { ?x1 <http://www.wikidata.org/prop/direct/P4792> ?x2 . ?x2 <http://www.wikidata.org/prop/direct/P136> ?x3 . ?x3 <http://www.wikidata.org/prop/direct/P469> ?x1 } LIMIT 10000
 SELECT (COUNT(*) AS ?count) WHERE { ?x1 <http://www.wikidata.org/prop/direct/P702> ?x2 . ?x2 <http://www.wikidata.org/prop/direct/P1376> ?x3 . ?x3 <http://www.wikidata.org/prop/direct/P194> ?x1 } LIMIT 10000
-SELECT (COUNT(*) AS ?count) WHERE { ?x1 <http://www.wikidata.org/prop/direct/P398> ?x2 . ?x2 <http://www.wikidata.org/prop/direct-normalized/P646> ?x3 . ?x3 <http://www.wikidata.org/prop/direct/P397> ?x1 } LIMIT 10000
