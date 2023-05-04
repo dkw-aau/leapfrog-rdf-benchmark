@@ -22,7 +22,7 @@ for bgp in runtimes_without.keys():
         if bgp in gt and gt[bgp]['with_runtime'] != runtimes_with[bgp]['runtime']:
             conflicts += 1
 
-        gt[bgp] = {'with_runtime': runtimes_with[bgp]['runtime'], 'without_runtime': runtimes_without[bgp]['runtime'], 'with_size': runtimes_with[bgp]['size'], 'without_size': runtimes_without[bgp]['size']}
+        gt[bgp] = {'with_runtime': runtimes_with[bgp]['runtime'], 'without_runtime': runtimes_without[bgp]['runtime'], 'with_size': runtimes_with[bgp]['results'], 'without_size': runtimes_without[bgp]['results']}
 
 print('BGPS in original Jena also in Jena Bloom: ' + str(do_exist))
 print('BGPS in original Jena not in Jena Bloom: ' + str(dont_exist))

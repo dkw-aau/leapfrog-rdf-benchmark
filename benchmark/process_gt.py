@@ -1,6 +1,6 @@
 import json
 
-filename = 'gt_runtime_without_blf.txt'
+filename = 'gt_runtimes_validation_without.txt'
 runtimes = dict()
 
 with open(filename, 'r') as file:
