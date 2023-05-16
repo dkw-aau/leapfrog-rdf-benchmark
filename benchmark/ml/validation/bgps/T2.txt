@@ -1,5 +1,0 @@
-SELECT (COUNT(*) AS ?count) WHERE { ?x <http://www.wikidata.org/prop/direct/P3957> ?y . ?x <http://www.wikidata.org/prop/direct/P4198> ?z } LIMIT 10000
-SELECT (COUNT(*) AS ?count) WHERE { ?x <http://www.wikidata.org/prop/direct/P3639> ?y . ?x <http://www.wikidata.org/prop/direct-normalized/P2163> ?z } LIMIT 10000
-SELECT (COUNT(*) AS ?count) WHERE { ?x <http://www.wikidata.org/prop/direct/P1799> ?y . ?x <http://www.wikidata.org/prop/direct/P1936> ?z } LIMIT 10000
-SELECT (COUNT(*) AS ?count) WHERE { ?x <http://www.wikidata.org/prop/direct/P5951> ?y . ?x <http://www.wikidata.org/prop/direct/P1986> ?z } LIMIT 10000
-SELECT (COUNT(*) AS ?count) WHERE { ?x <http://www.wikidata.org/prop/direct/P486> ?y . ?x <http://www.wikidata.org/prop/direct/P2213> ?z } LIMIT 10000

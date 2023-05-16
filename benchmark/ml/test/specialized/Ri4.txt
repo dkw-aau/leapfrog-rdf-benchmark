@@ -1,1 +1,0 @@
-SELECT (COUNT(*) AS ?count) WHERE { ?s <http://www.wikidata.org/prop/direct/P53> ?o1 . ?o1 <http://www.wikidata.org/prop/direct/P17> ?o2 . ?o2 <http://www.wikidata.org/prop/direct/P85> ?o3 . ?o3 <http://www.wikidata.org/prop/direct/P40> ?s } LIMIT 10000
