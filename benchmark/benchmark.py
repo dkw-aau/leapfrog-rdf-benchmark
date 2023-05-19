@@ -15,8 +15,9 @@ query_number = 0
 for line in queries_file:
     queries.append(line.strip())
 
+print('index,results,average time (3)')
+
 for query in queries:
-    count = 0
     time_sum = 0
     results = None
 
@@ -31,16 +32,16 @@ for query in queries:
 
         avg_elapsed_time = int(time_sum / 3)
 
-        sparql.setQuery(query.replace("(COUNT(*) AS ?count)", "*"))
-        projection_results = sparql.query().convert()
+        json_results = results.convert()
+        results_size = 0
 
-        for result in projection_results["results"]["bindings"]:
-            count += 1
+        if "count" in json_results["results"]["bindings"][0]:
+            results_size = int(json_results["results"]["bindings"][0]["count"]["value"])
 
-        print("{0};{1};{2}".format(query_number, count, avg_elapsed_time))
+        print("{0},{1},{2}".format(query_number, results_size, avg_elapsed_time))
 
     except Exception as e:
-        print("{0};{1};timeout".format(query_number, count))
+        print("{0},0,-1".format(query_number))
         traceback.print_exc()
 
     query_number += 1
