@@ -1,15 +1,15 @@
-SELECT (COUNT(*) AS ?count) WHERE { ?s <http://www.wikidata.org/prop/direct/P50> ?o1 . ?o1 <http://www.wikidata.org/prop/direct/P361> ?o2 . ?o2 <http://www.wikidata.org/prop/direct/P3150> ?s } LIMIT 10000
-SELECT (COUNT(*) AS ?count) WHERE { ?s <http://www.wikidata.org/prop/direct/P30> ?o1 . ?o1 <http://www.wikidata.org/prop/direct/P361> ?o2 . ?o2 <http://www.wikidata.org/prop/direct/P17> ?s } LIMIT 10000
-SELECT (COUNT(*) AS ?count) WHERE { ?s <http://www.wikidata.org/prop/direct/P36> ?o1 . ?o1 <http://www.wikidata.org/prop/direct/P163> ?o2 . ?o2 <http://www.wikidata.org/prop/direct/P36> ?s } LIMIT 10000
-SELECT (COUNT(*) AS ?count) WHERE { ?s <http://www.wikidata.org/prop/direct/P37> ?o1 . ?o1 <http://www.wikidata.org/prop/direct/P282> ?o2 . ?o2 <http://www.wikidata.org/prop/direct/163> ?s } LIMIT 10000
-SELECT (COUNT(*) AS ?count) WHERE { ?s <http://www.wikidata.org/prop/direct/P38> ?o1 . ?o1 <http://www.wikidata.org/prop/direct/P17> ?o2 . ?o2 <http://www.wikidata.org/prop/direct/P282> ?s } LIMIT 10000
-SELECT (COUNT(*) AS ?count) WHERE { ?s <http://www.wikidata.org/prop/direct/P40> ?o1 . ?o1 <http://www.wikidata.org/prop/direct/P735> ?o2 . ?o2 <http://www.wikidata.org/prop/direct/P22> ?s } LIMIT 10000
-SELECT (COUNT(*) AS ?count) WHERE { ?s <http://www.wikidata.org/prop/direct/P53> ?o1 . ?o1 <http://www.wikidata.org/prop/direct/P85> ?o2 . ?o2 <http://www.wikidata.org/prop/direct/P163> ?s } LIMIT 10000
-SELECT (COUNT(*) AS ?count) WHERE { ?s <http://www.wikidata.org/prop/direct/P57> ?o1 . ?o1 <http://www.wikidata.org/prop/direct/P27> ?o2 . ?o2 <http://www.wikidata.org/prop/direct/50> ?s } LIMIT 10000
-SELECT (COUNT(*) AS ?count) WHERE { ?s <http://www.wikidata.org/prop/direct/P59> ?o1 . ?o1 <http://www.wikidata.org/prop/direct/P47> ?o2 . ?o2 <http://www.wikidata.org/prop/direct/P30> ?s } LIMIT 10000
-SELECT (COUNT(*) AS ?count) WHERE { ?s <http://www.wikidata.org/prop/direct/P66> ?o1 . ?o1 <http://www.wikidata.org/prop/direct/P37> ?o2 . ?o2 <http://www.wikidata.org/prop/direct/P36> ?s } LIMIT 10000
-SELECT (COUNT(*) AS ?count) WHERE { ?s <http://www.wikidata.org/prop/direct/P170> ?o1 . ?o1 <http://www.wikidata.org/prop/direct/P735> ?o2 . ?o2 <http://www.wikidata.org/prop/direct/P22> ?s } LIMIT 10000
-SELECT (COUNT(*) AS ?count) WHERE { ?s <http://www.wikidata.org/prop/direct/P172> ?o1 . ?o1 <http://www.wikidata.org/prop/direct/P610> ?o2 . ?o2 <http://www.wikidata.org/prop/direct/P37> ?s } LIMIT 10000
-SELECT (COUNT(*) AS ?count) WHERE { ?s <http://www.wikidata.org/prop/direct/P206> ?o1 . ?o1 <http://www.wikidata.org/prop/direct/P200> ?o2 . ?o2 <http://www.wikidata.org/prop/direct/P37> ?s } LIMIT 10000
-SELECT (COUNT(*) AS ?count) WHERE { ?s <http://www.wikidata.org/prop/direct/P210> ?o1 . ?o1 <http://www.wikidata.org/prop/direct/P27> ?o2 . ?o2 <http://www.wikidata.org/prop/direct/P206> ?s } LIMIT 10000
-SELECT (COUNT(*) AS ?count) WHERE { ?s <http://www.wikidata.org/prop/direct/P726> ?o1 . ?o1 <http://www.wikidata.org/prop/direct/734> ?o2 . ?o2 <http://www.wikidata.org/prop/direct/P17> ?s } LIMIT 10000
+SELECT (COUNT(*) AS ?count) WHERE { ?s <http://www.wikidata.org/prop/direct/P50> ?o1 . ?o1 <http://www.wikidata.org/prop/direct/P361> ?o2 . ?o2 <http://www.wikidata.org/prop/direct/P3150> ?s }
+SELECT (COUNT(*) AS ?count) WHERE { ?s <http://www.wikidata.org/prop/direct/P30> ?o1 . ?o1 <http://www.wikidata.org/prop/direct/P361> ?o2 . ?o2 <http://www.wikidata.org/prop/direct/P17> ?s }
+SELECT (COUNT(*) AS ?count) WHERE { ?s <http://www.wikidata.org/prop/direct/P36> ?o1 . ?o1 <http://www.wikidata.org/prop/direct/P163> ?o2 . ?o2 <http://www.wikidata.org/prop/direct/P36> ?s }
+SELECT (COUNT(*) AS ?count) WHERE { ?s <http://www.wikidata.org/prop/direct/P37> ?o1 . ?o1 <http://www.wikidata.org/prop/direct/P282> ?o2 . ?o2 <http://www.wikidata.org/prop/direct/163> ?s }
+SELECT (COUNT(*) AS ?count) WHERE { ?s <http://www.wikidata.org/prop/direct/P38> ?o1 . ?o1 <http://www.wikidata.org/prop/direct/P17> ?o2 . ?o2 <http://www.wikidata.org/prop/direct/P282> ?s }
+SELECT (COUNT(*) AS ?count) WHERE { ?s <http://www.wikidata.org/prop/direct/P40> ?o1 . ?o1 <http://www.wikidata.org/prop/direct/P735> ?o2 . ?o2 <http://www.wikidata.org/prop/direct/P22> ?s }
+SELECT (COUNT(*) AS ?count) WHERE { ?s <http://www.wikidata.org/prop/direct/P53> ?o1 . ?o1 <http://www.wikidata.org/prop/direct/P85> ?o2 . ?o2 <http://www.wikidata.org/prop/direct/P163> ?s }
+SELECT (COUNT(*) AS ?count) WHERE { ?s <http://www.wikidata.org/prop/direct/P57> ?o1 . ?o1 <http://www.wikidata.org/prop/direct/P27> ?o2 . ?o2 <http://www.wikidata.org/prop/direct/50> ?s }
+SELECT (COUNT(*) AS ?count) WHERE { ?s <http://www.wikidata.org/prop/direct/P59> ?o1 . ?o1 <http://www.wikidata.org/prop/direct/P47> ?o2 . ?o2 <http://www.wikidata.org/prop/direct/P30> ?s }
+SELECT (COUNT(*) AS ?count) WHERE { ?s <http://www.wikidata.org/prop/direct/P66> ?o1 . ?o1 <http://www.wikidata.org/prop/direct/P37> ?o2 . ?o2 <http://www.wikidata.org/prop/direct/P36> ?s }
+SELECT (COUNT(*) AS ?count) WHERE { ?s <http://www.wikidata.org/prop/direct/P170> ?o1 . ?o1 <http://www.wikidata.org/prop/direct/P735> ?o2 . ?o2 <http://www.wikidata.org/prop/direct/P22> ?s }
+SELECT (COUNT(*) AS ?count) WHERE { ?s <http://www.wikidata.org/prop/direct/P172> ?o1 . ?o1 <http://www.wikidata.org/prop/direct/P610> ?o2 . ?o2 <http://www.wikidata.org/prop/direct/P37> ?s }
+SELECT (COUNT(*) AS ?count) WHERE { ?s <http://www.wikidata.org/prop/direct/P206> ?o1 . ?o1 <http://www.wikidata.org/prop/direct/P200> ?o2 . ?o2 <http://www.wikidata.org/prop/direct/P37> ?s }
+SELECT (COUNT(*) AS ?count) WHERE { ?s <http://www.wikidata.org/prop/direct/P210> ?o1 . ?o1 <http://www.wikidata.org/prop/direct/P27> ?o2 . ?o2 <http://www.wikidata.org/prop/direct/P206> ?s }
+SELECT (COUNT(*) AS ?count) WHERE { ?s <http://www.wikidata.org/prop/direct/P726> ?o1 . ?o1 <http://www.wikidata.org/prop/direct/734> ?o2 . ?o2 <http://www.wikidata.org/prop/direct/P17> ?s }
