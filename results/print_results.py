@@ -1,6 +1,6 @@
 import os
 
-groups = ['bgps', 'empty', 'existence_check', 'optionals', 'specialized']
+groups = ['bgps', 'empty', 'existence_check', 'optionals', 'specialized', 'modified_bgps']
 
 for group in groups:
     print(group)
