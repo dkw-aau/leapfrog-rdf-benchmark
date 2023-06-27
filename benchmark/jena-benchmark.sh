@@ -17,7 +17,7 @@ do
     queryName=$(basename $file)
     echo Processing $queryName
 
-    python3 benchmark.py $1/$queryName http://localhost:3030/jena/sparql > $1/output/${queryName%%.txt}/jena
+    python3 benchmark.py $1/$queryName http://localhost:3030/jena/sparql > $1/output/${queryName%%.txt}/jena.csv
     echo "[Done]"
 done
 

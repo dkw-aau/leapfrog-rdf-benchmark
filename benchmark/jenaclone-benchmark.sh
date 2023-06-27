@@ -7,7 +7,7 @@ cd jena
 java -Xmx300g -jar jars/fuseki-jenaclone.jar --loc=db/jena --timeout=1000000 /jenaclone &
 cd ..
 
-sleep 1h
+sleep 4h
 echo "[Done]"
 
 echo Warming up
@@ -20,7 +20,7 @@ do
     queryName=$(basename $file)
     echo Processing $queryName
 
-    python3 benchmark.py $1/$queryName http://localhost:3030/jenaclone/sparql > $1/output/${queryName%%.txt}/jenaclone
+    python3 benchmark.py $1/$queryName http://localhost:3030/jenaclone/sparql > $1/output/${queryName%%.txt}/jenaclone.csv
     echo "[Done]"
 done
 
