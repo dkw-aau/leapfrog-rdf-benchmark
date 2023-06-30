@@ -73,10 +73,10 @@ for group in groups:
     print(group)
 
     for shape in map.keys():
-        print(shape)
+        print('\n' + shape)
 
         for version in map[shape].keys():
             print('\n' + version)
 
             for time in map[shape][version]:
-                print(time)
+                print(str(time).replace('.', ','))
