@@ -50,7 +50,7 @@ def filter_runtimes(map, version, runtime):
         i = 0
 
         for time in map[shape][version]:
-            if time < runtime:
+            if time != -1 and time < runtime:
                 positions.append(i)
 
             i += 1
