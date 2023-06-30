@@ -70,7 +70,7 @@ for group in groups:
         break
 
     filter_runtimes(map, 'jena.csv', 100)
-    print(group)
+    print('\n' + group)
 
     for shape in map.keys():
         print('\n' + shape)
